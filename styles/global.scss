@@ -1,0 +1,6 @@
+// global.scss
+@use "./abstract/variables";
+@use "./abstract/mixins";
+@use "base";
+@use "typography";
+@use "./pages/home";

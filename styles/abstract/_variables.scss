@@ -1,0 +1,25 @@
+// ./abstract/_variables.scss
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap');
+
+// Typography
+$font-primary: 'Poppins', sans-serif;
+$font-size-base: 1.6rem;
+
+// Colors
+$color-white: #ffffff;
+$color-grey: #6a6a6a;
+$color-black: #000000;
+$color-gold: #fabe7d;
+
+// Breakpoints
+$bp-largest: 112.5em;    // 1800px
+$bp-large: 62.5em;       // 1000px
+$bp-medium: 56.25em;     // 900px
+$bp-small: 37.5em;       // 600px
+
+:root {
+  --color-white: #{$color-white};
+  --color-grey: #{$color-grey};
+  --color-black: #{$color-black};
+  --color-gold: #{$color-gold};
+}
