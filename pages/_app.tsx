@@ -36,9 +36,10 @@ function MyApp({ Component, pageProps }: any) {
 
   return (
     <div ref={scrollRef}>
-      <AnimatePresence exitBeforeEnter onExitComplete={handleExitComplete}>
-        <Component {...pageProps} key={router.route} />
-      </AnimatePresence>
+      <AnimatePresence initial={false} onExitComplete={handleExitComplete}> 
+  <Component {...pageProps} key={router.route} />
+</AnimatePresence>
+
     </div>
   )
 }
